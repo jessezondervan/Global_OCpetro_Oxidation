@@ -1,0 +1,20 @@
+name: Global_OC_petro_oxidation_model
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.9
+- xarray-spatial
+- rasterio
+- matplotlib
+- rioxarray
+- fiona
+prefix: /data/eart-roc-co2/eart0547/carbon-env-newer
+commands:
+  run_model:
+    unix: python3 input_global/Glob_newmethod_parr_globalresidual.py
+    env_spec: default
+platforms:
+- linux-64
+- osx-64
+- win-64
