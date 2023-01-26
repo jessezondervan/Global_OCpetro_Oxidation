@@ -13,7 +13,7 @@ A permanent DOI was created through Zenodo and can be found here:
 ## Data
 Data needed to run this code is uploaded and available on Zenodo. To run the code with available data in a functional environment, it is advised to download the files, code and environment from Zenodo. Anaconda-project can be used to unpack the zip file and to run the model. Instructions can be found by searching for anaconda-project online, or directly via https://anaconda-project.readthedocs.io/en/latest/user-guide/tasks/create-project-archive.html?highlight=unarchive#extracting-the-archive-file [last accessed 26/01/2023]
 
-##Notes
+## Notes
 This code was run on an HPC environment with a job submitter called SLURM. As such, the code will run according to a slurm job array with numbers from 1-10000 (10,000 monte carlo simulations). sbatch --array=1-10000:1 job_script_file_name.sh
 
 Example:
