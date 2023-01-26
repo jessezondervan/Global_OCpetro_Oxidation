@@ -6,7 +6,7 @@ This repository contains the code only and a link to the python environment and 
 
 The code was developed in a python environment detailed in anaconda-project.yml, with every recursive dependency down to the individual build in anaconda-project-locked.yml. The code file is "Glob_newmethod_parr_globalresidual.py" in this repository.
 
-This code should be reproducible indefinitely, without depending on online package repositories, as long as nothing depends on system libraries. Both the commands and the environment have been captured into a fully locked anaconda project with all conda packages unpacked and included using anaconda-project --pack-envs. Note that only packages for running the code on Linux can be unpacked in this way; building on other platforms (Windows, Mac) will still require access to repositories.
+This code should be reproducible indefinitely, without depending on online package repositories. Both the commands and the environment have been captured into a fully locked anaconda project with all conda packages unpacked and included using anaconda-project --pack-envs. Note that only packages for running the code on Linux can be unpacked in this way; building on other platforms (Windows, Mac) will still require access to repositories.
 
 A permanent DOI was created through Zenodo and can be found here: 
 
