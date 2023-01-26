@@ -1,5 +1,5 @@
 #!/bin/bash 
-#SBATCH --job-name=Global_cal 
+#SBATCH --job-name=Global_OCpetro_oxidation_model
 #SBATCH --partition=short
 #SBATCH --time=00:45:00 
 #SBATCH --nodes=1
