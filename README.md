@@ -8,7 +8,8 @@ The code was developed in a python environment detailed in anaconda-project.yml,
 
 This code should be reproducible indefinitely, without depending on online package repositories. Both the commands and the environment have been captured into a fully locked anaconda project with all conda packages unpacked and included using anaconda-project --pack-envs. Note that only packages for running the code on Linux can be unpacked in this way; building on other platforms (Windows, Mac) will still require access to repositories.
 
-A permanent DOI for this Github entry was created through Zenodo. 
+A permanent DOI for this Github entry was created through Zenodo.
+
 [![DOI](https://zenodo.org/badge/592910202.svg)](https://zenodo.org/badge/latestdoi/592910202)
 
 ## Data
