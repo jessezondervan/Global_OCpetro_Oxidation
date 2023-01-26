@@ -17,6 +17,7 @@ Data needed to run this code is uploaded and available on Zenodo. To run the cod
 This code was run on an HPC environment with a job submitter called SLURM. As such, the code will run according to a slurm job array with numbers from 1-100 (10,000 monte carlo simulations). The command to run the Monte Carlo simulation as 10,000 seperate jobs is done like this: "sbatch --array=1-10000:1 job_script_file_name.sh". Note that the version of code uploaded here is set to run 100 simulations ("sbatch --array=1-100:1 job_script_file_name.sh"). When running 10,000 simulations, please change line 46 to "quantile = float(os.getenv('SLURM_ARRAY_TASK_ID'))/10000."
 
 Whilst it is possible to run this code on a single machine such as a personal computer, the user is warned that it takes 24 core hours per simulation to run. For example, a typical 4-core laptop would need 6 hours to run one simulation. Now calculate how many 10,000 would take...
+
 To run one simulation, line 46 ("quantile = float(os.getenv('SLURM_ARRAY_TASK_ID'))/100.") can be replaced with ("quantile = float(number between 0 and 1)"). Outputs will be saved for each simulation, which can rack up a lot of space, unless you specifically put in lines to delete these from the disk, or, in the case of the example job script for HPC usage, exclude the files when moving data from the node that ran the job.
 
 ### Example:
