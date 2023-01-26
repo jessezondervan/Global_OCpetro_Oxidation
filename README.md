@@ -8,5 +8,5 @@ The code was developed in a python environment detailed in anaconda-project.yml 
 
 A permanent DOI was created through Zenodo and can be found here: 
 
-Data
+## Data
 Data needed to run this code is uploaded and available on Zenodo. To run the code with available data in a functional environment, it is advised to download the files, code and environment from Zenodo. Anaconda-project can be used to unpack the zip file and to run the model.
