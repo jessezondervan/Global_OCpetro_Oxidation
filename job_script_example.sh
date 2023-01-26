@@ -12,7 +12,7 @@ rsync -av $DATA/input_global ./
 module purge
 module load Anaconda3//2021.11
 
-source activate $DATA/carbon-env-newer
+source activate $DATA/envs/default
 
 python3 input_global/Glob_newmethod_parr_globalresidual.py
 
