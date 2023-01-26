@@ -16,7 +16,7 @@ Data needed to run this code is uploaded and available on Zenodo. To run the cod
 ##Notes
 This code was run on an HPC environment with a job submitter called SLURM. As such, the code will run according to a slurm job array with numbers from 1-10000 (10,000 monte carlo simulations). sbatch --array=1-10000:1 job_script_file_name.sh
 
-###example:
+Example:
 sbatch --array=1-10000:1 run_Glob_OCpetro_model.sh
 
 An example of a job script file has been appended. Please not that the details of this job script depend on your machine or HPC.
