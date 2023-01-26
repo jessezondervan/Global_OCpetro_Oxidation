@@ -1,10 +1,10 @@
 # Global_OCpetro_Oxidation
 
-This repository contains the code and data for the manuscript "Potential distributions of pre-Columbian people in Tropical Andean landscapes." by Sales, Rachel, Crystal McMichael, Suzette G.A. Flantua, Kimberley Hagemans, Jesse R. Zondervan, Catalina González-Arango, Warren Church, Mark Bush
+This repository contains the code and data for the manuscript "Global CO2 release by rock organic carbon oxidation negates silicate weathering" by Jesse R. Zondervan, Robert G. Hilton, Fiona Clubb, Mathieu Dellinger, Tobias Roylands, Mateja Ogrič.
 
-This repository contains the code and data used to generate the final ensemble species distribution model (SDM).
+This repository contains the code only and a link to the python environment and the data used to generate the final global OCpetro oxidation model.
 
-The code was developed in a python environment detailed in anaconda-project.yml and which has been uploaded to Zenodo. The code file is "Glob_newmethod_parr_globalresidual.py" in this repository.
+The code was developed in a python environment detailed in anaconda-project.yml and which has been uploaded with all its dependencies to Zenodo. There is no need to pull modules from mirrors. The code file is "Glob_newmethod_parr_globalresidual.py" in this repository.
 
 A permanent DOI was created through Zenodo and can be found here: 
 
