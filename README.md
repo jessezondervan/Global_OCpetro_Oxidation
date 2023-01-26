@@ -24,4 +24,4 @@ To run one simulation, line 46 ("quantile = float(os.getenv('SLURM_ARRAY_TASK_ID
 
 sbatch --array=1-100:1 run_Glob_OCpetro_model.sh    #note that this runs 100 simulations.
 
-An example of a job script file has been appended. Please not that the details of this job script depend on your machine or HPC.
+An example of a job script file has been appended. Please note that the details of this job script depend on your machine or HPC. Please consult your HPC support or platform's (Linux, Mac, Windows) command prompt instructions.
