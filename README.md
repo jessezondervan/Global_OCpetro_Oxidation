@@ -8,7 +8,8 @@ The code was developed in a python environment detailed in anaconda-project.yml,
 
 This code should be reproducible indefinitely, without depending on online package repositories. Both the commands and the environment have been captured into a fully locked anaconda project with all conda packages unpacked and included using anaconda-project --pack-envs. Note that only packages for running the code on Linux can be unpacked in this way; building on other platforms (Windows, Mac) will still require access to repositories.
 
-A permanent DOI for this Github entry was created through Zenodo. [![DOI](https://zenodo.org/badge/592910202.svg)](https://zenodo.org/badge/latestdoi/592910202)
+A permanent DOI for this Github entry was created through Zenodo. 
+[![DOI](https://zenodo.org/badge/592910202.svg)](https://zenodo.org/badge/latestdoi/592910202)
 
 ## Data
 Data needed to run this code is uploaded and available on Zenodo. To run the code with available data in a functional environment, it is advised to download the files, code and environment from Zenodo. Anaconda-project can be used to unpack the zip file and to run the model. Instructions can be found by searching for anaconda-project online, or directly via https://anaconda-project.readthedocs.io/en/latest/user-guide/tasks/create-project-archive.html?highlight=unarchive#extracting-the-archive-file [last accessed 26/01/2023]
