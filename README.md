@@ -1,6 +1,6 @@
 # Global_OCpetro_Oxidation
 
-This repository contains code for the manuscript "Rock organic carbon oxidation CO2 release offsets silicate weathering sink" by Jesse R. Zondervan, Robert G. Hilton, Mathieu Dellinger, Fiona J. Clubb,  Tobias Roylands, Mateja Ogrič.
+This repository contains code for the manuscript "Rock organic carbon oxidation CO<sub>2</sub> release offsets silicate weathering sink" by Jesse R. Zondervan, Robert G. Hilton, Mathieu Dellinger, Fiona J. Clubb,  Tobias Roylands, Mateja Ogrič.
 
 This Github repository contains code only and a link to the python environment and data used to generate the final global OCpetro oxidation model stored on Zenodo. In addition, for transparency it contains code used to generate the submodels of denudation and OCpetro stocks which are used as inputs for the OCpetro oxidation model. The outputs of these submodels are available on Zenodo as data inputs for the OCpetro oxidation model, which means there is no need to rerun this code when attempting to run the final model.
 
