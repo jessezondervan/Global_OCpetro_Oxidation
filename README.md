@@ -2,7 +2,7 @@
 
 This repository contains code for the manuscript "Rock organic carbon oxidation CO<sub>2</sub> release offsets silicate weathering sink" by Jesse R. Zondervan, Robert G. Hilton, Mathieu Dellinger, Fiona J. Clubb,  Tobias Roylands, Mateja Ogrič.
 
-This Github repository contains code only and a link to the python environment and data used to generate the final global OCpetro oxidation model stored on Zenodo. In addition, for transparency it contains code used to generate the submodels of denudation and OCpetro stocks which are used as inputs for the OCpetro oxidation model. The outputs of these submodels are available on Zenodo as data inputs for the OCpetro oxidation model, which means there is no need to rerun this code when attempting to run the final model.
+This Github repository contains code only and a link to the python environment and data used to generate the final global OC<sub>petro</sub> oxidation model stored on Zenodo. In addition, for transparency it contains code used to generate the submodels of denudation and OC<sub>petro</sub> stocks which are used as inputs for the OC<sub>petro</sub> oxidation model. The outputs of these submodels are available on Zenodo as data inputs for the OC<sub>petro</sub> oxidation model, which means there is no need to rerun this code when attempting to run the final model.
 
 The code was developed in a python environment detailed in anaconda-project.yml, with every recursive dependency down to the individual build in anaconda-project-locked.yml. The code file is "Glob_newmethod_parr_globalresidual.py" in this repository.
 
